@@ -1,0 +1,520 @@
+* {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+.menu {
+  vertical-align: middle;
+  width: 100%;
+  background: #fef5ed;
+  
+}
+
+.menu > ul {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+  padding-right: 50px;
+}
+
+.menu ul li {
+  width: 240px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #fef5ed;
+  display: inline-block;
+  text-align: center;
+}
+
+.menu ul li a {
+  text-decoration: none;
+}
+
+.menu ul li:hover{
+  background-color: #f1feed;
+  box-shadow: 0px 0px 6px 0px rgb(143, 153, 144);
+}
+
+.menu ul li a:hover{
+	font-weight: bold;
+	border-bottom: 2px solid rgb(69, 124, 48);
+}
+
+.menu ul li ul{
+  display: none;
+  position: absolute;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.menu ul li:hover ul{
+	display: block;
+}
+
+.menu ul img {
+  float: left;
+  height: 80px;
+  padding-left: 50px;
+  
+}
+
+.menu ul li ul form li button{
+  vertical-align: middle;
+  width: 100%;
+  background: transparent;
+  border: none;
+}
+
+.menu ul form {
+  display: inline;
+}
+
+.menu ul button {
+  vertical-align: middle;
+  width: 100%;
+  background: transparent;
+  border: none;
+}
+
+.nota {
+  width: 250px;
+}
+
+.inicio-sesion {
+  text-align: center;
+}
+
+.form {
+  padding: 10px;
+  width: 500px;
+  text-align: left;
+  margin: 50px;
+  display: inline-block;
+}
+
+label {
+  padding: 0px;
+  font-weight:bold;
+}
+
+input {
+  width: 480px;
+  margin-top: 0px;
+  padding: 10px;
+  border-width: 0px 0px 2px 0px;
+  border-color: black;
+  background-color: transparent;
+  margin-bottom: 15px;
+  color: black;
+}
+
+input::placeholder{
+  color:rgb(129, 125, 125);
+}
+
+.avgbutton {
+  width: 120px;
+  margin: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  border-width: 2px 2px 2px 2px;
+  border-color: #adc2a9;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+h2 {
+  font-family: Times, 'Times New Roman', serif;
+  letter-spacing: 6px;
+  font-size: 45px;
+  margin: 0px 0px 30px 0px;
+}
+
+.caja-registro {
+  width: 300px;
+  padding: 30px 10px 30px 10px;
+  background-color: #fef5ed;
+  border: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  display:inline-block;
+  margin-bottom: 30px;
+  vertical-align:text-bottom;
+  box-shadow: 0px 2px 6px 0px rgb(143, 153, 144);
+}
+
+.boton-caja-registro {
+  background-color: #82967e;
+  color: white;
+  margin-top: 20px;
+  border-radius: 100px;
+  width: 200px;
+}
+
+.boton-caja-registro a {
+  color: white;
+  text-decoration: none;
+}
+
+.sobre-nosotros {
+  width: 100%;
+  background-color: #fef5ed;
+  text-align: center;
+}
+
+.sobre-nosotros-parrafo {
+  display: inline-block;
+  margin: 50px;
+  margin-top: 80px;
+}
+
+.subtitulo {
+  width: 400px;
+}
+
+.parrafo {
+  width: 550px;
+  text-align: justify;
+  padding: 0px;
+  vertical-align:top;
+}
+
+.separador {
+  margin: 30px auto;
+  text-align: center;
+  font-size: 30px;
+  max-width: 100%;
+  position:relative;
+}
+
+.separador:before{
+  content: "";
+  display:block;
+  width: 30%;
+  height:4px;
+  background: rgb(89, 138, 70);
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.separador:after{
+  content: "";
+  display:block;
+  width: 30%;
+  height:4px;
+  background: rgb(89, 138, 70);
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.mision {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.mision > img {
+  width: 200px;
+  margin: 35px 10px 35px 0px;
+}
+
+.contenedor-parrafo-mision {
+  background-color: transparent;
+  box-shadow: 0px 0px 15px 0px rgb(143, 153, 144);
+  display: inline-block;
+  transform: translateY(-50%);
+  margin: 60px 0px 10px 20px;
+  border: solid;
+  border-color: gray;
+  border-width: 3px;
+}
+
+.parrafo-mision {
+  padding: 20px;
+  width: 500px;
+  text-align: justify;
+  font-family: serif;
+  line-height: 30px;
+}
+
+.valores {
+  width: 100%;
+  background-color: #fef5ed;
+  text-align: center;
+}
+
+.valores-img {
+  width: 400px;
+}
+
+.cajita {
+  display:inline-block;
+  box-shadow: 0px 0px 15px 0px rgb(143, 153, 144);
+  padding: 20px;
+  width: 200px;
+  min-height: 350px;
+  border: 0;
+  margin-top: 10px;
+  vertical-align:top;
+}
+
+.cajita img {
+  width: 100px;
+  margin: 20px;
+}
+
+.cajita h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.cajita p {
+  width: 200px;
+  color: black;
+  line-height: 26px;
+}
+
+footer {
+  background-color: #99a799;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  vertical-align: bottom;
+}
+
+footer a {
+  float: center;
+  color:white;
+  text-decoration: none;
+}
+
+footer ul a > img {
+  float: left;
+  height: 150px;
+  padding-left: 50px;
+}
+
+footer > ul {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+  padding-right: 50px;
+}
+
+footer ul li {
+  width: 250px;
+  padding: 20px;
+  background-color: transparent;
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer li img {
+  width: 15px;
+  padding-right: 10px;
+}
+
+.cayos {
+  width: 100%;
+  text-align: center;
+}
+
+.cayos > div {
+  width: 360px;
+  box-shadow: 0px 0px 15px 0px rgb(143, 153, 144);
+  display: inline-block;
+  margin: 25px;
+  text-align: left;
+  vertical-align:text-top;
+}
+
+.cayos > div > img {
+  width: 360px;
+}
+
+.cayos > div > h4 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  padding: 10px;
+  text-align: center;
+}
+
+.cayos > div > ul > li {
+  font-size: 20px;
+  width: 300px;
+  color:black;
+  letter-spacing: 1px;
+}
+
+.cayos > div > button {
+  border-radius: 0;
+  border-width: 3px;
+  width: 350px;
+  border-style: none;
+}
+
+.cayos > div > button a {
+  text-decoration: none;
+}
+
+.descripcion {
+  text-align: center;
+}
+
+.parrafo-descripcion {
+  display: inline-block;
+  margin: 50px;
+  box-shadow: 0px 0px 15px 0px rgb(143, 153, 144);
+  padding: 20px;
+  vertical-align:text-top;
+  width: 620px;
+}
+
+.parrafo-descripcion p {
+  text-align: justify;
+  color: black;
+  padding-top: 40px;
+  letter-spacing: 1px;
+  padding-top: 0;
+  line-height: 30px;
+}
+
+.cayos-descripcion {
+  width: 100%;
+  text-align: center;
+}
+
+.cayos-descripcion > div {
+  width: 360px;
+  box-shadow: 0px 0px 15px 0px rgb(143, 153, 144);
+  display: inline-block;
+  margin: 25px;
+  text-align: center;
+  vertical-align:text-top;
+  height: 500px;
+}
+
+.cayos-descripcion > div > img {
+  margin-top: 20px;
+  width: 100px;
+}
+
+.cayos-descripcion > div > h4 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  padding: 10px;
+  text-align: center;
+}
+
+.cayos-descripcion > div > ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cayos-descripcion > div > ul > li {
+  font-size: 20px;
+  width: 300px;
+  color:black;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.tabla_gestion table {
+  text-align: center;
+  margin: 0 auto;
+  margin: 50px auto 50px auto;
+}
+
+.tabla_gestion table tr > td {
+  border: solid 1px gray;
+  padding: 0px 0px 0px 0px;
+  border: 0px 10px 0px 10px;
+  color: black;
+}
+
+.tabla_gestion table tr > td input {
+  border: solid 1px gray;
+  margin: 0;
+  color: black;
+  border: none;
+  padding-left: 20px;
+  width: -webkit-fill-available;
+}
+
+.tabla_gestion table tr > td select {
+  border: solid 1px gray;
+  margin: 0;
+  color: black;
+  border: none;
+  padding-left: 20px;
+  width: -webkit-fill-available;
+  height: 40px;
+}
+.tabla_gestion table tr > td option {
+  border: solid 1px gray;
+  margin: 0;
+  color: black;
+  border: none;
+  padding-left: 20px;
+  width: -webkit-fill-available;
+  height: 40px;
+}
+
+.tabla_gestion table tr > td input button {
+  border: solid 1px gray;
+  margin: 0;
+  color: red;
+  border: none;
+  width: 100px;
+}
+
+.tabla_gestion table tr > th {
+  padding: 2px 10px 2px 10px;
+  text-align: center;
+  margin: 0;
+}
+
+.eliminar {
+  width: 150px;
+  font-style: none;
+  border-width: 2px 2px 2px 2px;
+  border-color: red;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  background-color: transparent;
+  color: red;
+}
+
+.eliminar > label{
+  color: red;
+}
+
+.anadir {
+  width: 150px;
+  font-style: none;
+  border-width: 2px 2px 2px 2px;
+  border-color: #82967e;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  background-color: transparent;
+}
